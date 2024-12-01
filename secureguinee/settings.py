@@ -64,7 +64,7 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 # Permettre toutes les origines (pour les tests)
 CORS_ALLOW_ALL_ORIGINS = True
-CSRF_TRUSTED_ORIGINS = ['http://192.168.1.133:8000']
+CSRF_TRUSTED_ORIGINS = ['*']
 CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels.layers.InMemoryChannelLayer',  # Utiliser InMemoryChannelLayer
