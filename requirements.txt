@@ -1,0 +1,7 @@
+django
+django-cors-headers
+djangorestframework
+mysqlclient
+channels
+channels-redis
+firebase-admin
